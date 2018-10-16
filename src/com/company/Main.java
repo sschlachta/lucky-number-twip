@@ -11,7 +11,7 @@ public class Main {
         String luckName = theirName.nextLine();
         Lucky pers = new Lucky(1, luckName);
         int luckyNumber = (int)(Math.random() * 100 + 1);
-        System.out.println("Hello " + luckName + " ! It's nice to meet you! Your lucky number is: " + luckyNumber * luckyNumber);
+        System.out.println("Hello " + luckName + "! It's nice to meet you! Your lucky number is: " + luckyNumber * luckyNumber);
 
     }
 }
